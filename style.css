@@ -1,0 +1,200 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+    outline: none;
+
+
+}
+
+body {
+
+    background-color: black;
+}
+
+h2 {
+
+    color: #ffffff;
+}
+
+.input-min {
+
+    width: 342px;
+    height: 74px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46.88px;
+    background-color: #808080;
+    opacity: 0.8;
+    border-radius: 14px;
+    border: none;
+    color: #ffffff;
+    text-align: -webkit-auto;
+
+
+}
+
+input::placeholder {
+    color: #ffffff;
+    padding: 20px;
+
+
+}
+
+.input-max {
+
+    width: 342px;
+    height: 74px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46.88px;
+    background-color: #808080;
+    opacity: 0.8;
+    border-radius: 14px;
+    border: none;
+    color: #ffffff;
+    text-align: -webkit-auto;
+
+}
+
+div {
+    margin: 15px;
+}
+
+button {
+
+    background-color: #AEC346;
+    box-shadow: 0px 18px 40px 0px #AEC34659;
+    width: 342px;
+    height: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2.5px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+h2 {
+    width: 299px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37.5px;
+    display: initial;
+    position: relative;
+    top: 37px;
+
+}
+
+input {
+
+    margin: 32px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
+
+}
+
+
+#custom-alert {
+    display: none;
+    position: fixed;
+    top: 45%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    background-color: #C0C0C0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+#alert-message {
+    margin-bottom: -10px;
+}
+
+#alert-button {
+    background-color: #FF0000;
+    box-shadow: 0px 18px 40px 0px #AEC34659;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+#alert-button:hover {
+    opacity: 0.9;
+}
+
+#alert-button:active {
+    opacity: 0.8;
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+body {
+
+  display: inline-block;  
+}
+
+.input-numeros {
+
+
+    margin-top: 102px;
+    display: block;
+    width: 86%;
+    height: 30%;
+
+
+}
+
+h2 {
+
+    display: flex;
+    flex-direction: row;
+    top: 109px;
+    left: 90px;
+}
+
+img {
+
+
+
+    width: 90vw;
+    height: 30%;
+
+}
+
+#custom-alert {
+
+    top: 330px;
+
+}
+
+
+
+
+
+
+} 
+
+
+    
+ 
+    
+
